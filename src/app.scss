@@ -2,4 +2,11 @@
 
 body {
     background-color: $pink;
+
+    #root {
+        background: $yellow;
+        &.root {
+            background: $red;
+        }
+    }
 }

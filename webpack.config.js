@@ -22,6 +22,13 @@ module.exports = {
                     use: ['css-loader','sass-loader'],
                     publicPath:'./dist'
                 })
+            },
+            {
+                test: /\.js$/,
+                exclude:/node_modules/,
+                use: [
+                    'babel-loader'
+                ]
             }
         ]
     },
@@ -48,7 +55,7 @@ module.exports = {
             errors: true
         },
         stats: "errors-only",
-        open:true
+        open: true
 
     }
 };
