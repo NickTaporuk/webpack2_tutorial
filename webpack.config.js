@@ -20,7 +20,7 @@ module.exports = {
                 use : ExtractTextPlugin.extract({
                     fallback : 'style-loader',
                     use: ['css-loader','sass-loader'],
-                    publicPath:'/dist'
+                    publicPath:'./dist'
                 })
             }
         ]
@@ -38,5 +38,17 @@ module.exports = {
             filename:'app.css',
             allChunks: true
         })
-    ]
+    ],
+    devServer: {
+        contentBase: path.join("dist"),
+        compress: true,
+        port:9999,
+        overlay: {
+            warnings: true,
+            errors: true
+        },
+        stats: "errors-only",
+        open:true
+
+    }
 };
