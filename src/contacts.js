@@ -1,5 +1,5 @@
 "use strict";
-import css from './scss/app.scss';
+import css from './scss/contacts.scss';
 
 import React from "react"
 import ReactDOM from "react-dom"

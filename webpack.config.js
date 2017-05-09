@@ -3,10 +3,13 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const path = require('path');
 
 module.exports = {
-    entry : "./src/app.js",
+    entry : {
+        app: "./src/app.js",
+        contacts: './src/contacts.js'
+    },
     output : {
         path : path.resolve(__dirname, 'dist'),
-        filename : "app.bundle.js"
+        filename : "[name].bundle.js"
     },
     module : {
         rules : [
@@ -29,16 +32,30 @@ module.exports = {
                 use: [
                     'babel-loader'
                 ]
+            },
+            {
+                test: /\.pug$/,
+                loaders: ['html-loader', 'pug-html-loader']
             }
         ]
     },
     plugins: [
         new HtmlWebpackPlugin({
             title : 'Project',
-            template : './src/index.html',
+            template : './src/index.pug',
             // minify : {
             //     collapseWhitespace : true
             // },
+            excludeChunks:[
+                'contacts'
+            ],
+            hash: true
+        }),
+        new HtmlWebpackPlugin({
+            title : 'Contact Page',
+            filename: 'contacts.html',
+            template : './src/contacts.html',
+            chunks : ['contacts'],
             hash: true
         }),
         new ExtractTextPlugin({
