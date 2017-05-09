@@ -73,9 +73,21 @@
 /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(__webpack_exports__, \"__esModule\", { value: true });\n/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_scss__ = __webpack_require__(/*! ./app.scss */ 2);\n/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__app_scss__);\n\n\n\nconsole.log('Hello from app.js');\nconsole.log('Hello from app.js second again');//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9hcHAuanM/N2FjOSJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBzdHJpY3RcIjtcbmltcG9ydCBjc3MgZnJvbSAnLi9hcHAuc2Nzcyc7XG5cbmNvbnNvbGUubG9nKCdIZWxsbyBmcm9tIGFwcC5qcycpO1xuY29uc29sZS5sb2coJ0hlbGxvIGZyb20gYXBwLmpzIHNlY29uZCBhZ2FpbicpO1xuXG5cbi8vLy8vLy8vLy8vLy8vLy8vL1xuLy8gV0VCUEFDSyBGT09URVJcbi8vIC4vc3JjL2FwcC5qc1xuLy8gbW9kdWxlIGlkID0gMFxuLy8gbW9kdWxlIGNodW5rcyA9IDAiXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=");
+
+/***/ }),
+/* 1 */,
+/* 2 */
+/* unknown exports provided */
+/*!**********************!*\
+  !*** ./src/app.scss ***!
+  \**********************/
 /***/ (function(module, exports) {
 
-eval("console.log('Hello from app.js');\nconsole.log('Hello from app.js second again');//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9hcHAuanM/N2FjOSJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zb2xlLmxvZygnSGVsbG8gZnJvbSBhcHAuanMnKTtcbmNvbnNvbGUubG9nKCdIZWxsbyBmcm9tIGFwcC5qcyBzZWNvbmQgYWdhaW4nKTtcblxuXG4vLy8vLy8vLy8vLy8vLy8vLy9cbi8vIFdFQlBBQ0sgRk9PVEVSXG4vLyAuL3NyYy9hcHAuanNcbi8vIG1vZHVsZSBpZCA9IDBcbi8vIG1vZHVsZSBjaHVua3MgPSAwIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBIiwic291cmNlUm9vdCI6IiJ9");
+eval("throw new Error(\"Module parse failed: /var/www/webpack2_tutorial/src/app.scss Unexpected character '@' (1:0)\\nYou may need an appropriate loader to handle this file type.\\n| @import \\\"partitions/variables\\\";\\n| \\n| body {\");//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMi5qcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ==");
 
 /***/ })
 /******/ ]);
