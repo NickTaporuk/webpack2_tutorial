@@ -1,7 +1,7 @@
 @import "partitions/variables";
-
+@import "partitions/mixins";
 body {
-    background-color: $pink;
+    background-color: $green;
 
     #root {
         background: $yellow;
