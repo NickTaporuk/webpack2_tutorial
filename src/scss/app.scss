@@ -1,8 +1,7 @@
 @import "partitions/variables";
 @import "partitions/mixins";
 body {
-    background-color: $green;
-
+    background: url("../img/images.jpg") center center no-repeat;
     #root {
         background: $yellow;
         &.root {
